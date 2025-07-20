@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
 
   return (
     <div>
+      <Link href="/todo">Todo Uygulamama Git</Link>
       <h1>Sayaç</h1>
       <div>{number}</div>
       <button onClick={arttir}>1 Arttır</button>
