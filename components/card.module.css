@@ -1,13 +1,15 @@
 .blogCard {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
-  margin: 16px 0;
+  padding: 8px;
+  border-radius: 32px;
+  background-color: #667eea;
   width: fit-content;
+  max-width: 316px;
+  height: 300px;
 }
-.readMore {
-  color: #0070f3;
-  text-decoration: none;
-  font-weight: bold;
+
+.image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 24px;
 }

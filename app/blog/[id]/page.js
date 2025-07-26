@@ -2,10 +2,10 @@ import { data } from "@/data";
 import Image from "next/image";
 import style from "./page.module.css";
 
-export default function SingleBlogPage({ params }) {
-  const { id } = params;
+export default async function SingleBlogPage({ params }) {
+  const { id } = await params;
 
-  const blog = data[0];
+  const blog = data.filter((blog) => blog.id === id)[0];
 
   return (
     <div>
