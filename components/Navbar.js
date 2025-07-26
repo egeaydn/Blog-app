@@ -12,8 +12,8 @@ export default function Navbar() {
           <Link href={"/"} className={styles.link}>
             Ana Sayfa
           </Link>
-          <Link href={"/todo"} className={styles.link}>
-            Todo App
+          <Link href={"/blog"} className={styles.link}>
+            Blog
           </Link>
         </div>
       </div>
